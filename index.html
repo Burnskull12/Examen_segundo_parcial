@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Framework7 app</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	
+<div id="app">
+	<div class="view view-main view-init">
+		
+		<section id="panel-menu" class="panel panel-left panel-cover">
+			
+			<div class="block perfil">
+
+                <div class="row">
+                    <article class="col-30">
+                        <img src="img/perfil-avatar.png" alt="" class="img-fluid">
+                    </article>
+                    <article class="col-70">
+                        <h6>Bruno Interiano</h6>
+                    </article>
+                </div>
+
+            </div>
+			
+			<div class="list">
+			  <ul>
+				<li>
+                  <a href="/home/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">home</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Inicio</div>
+                    </div>
+                  </a>
+                </li>
+				<li>
+                  <a href="/hamburguesas/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">lunch_dining</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Hamburguesas</div>
+                    </div>
+                  </a>
+                </li>
+				<li>
+                  <a href="/pizzas/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">local_pizza</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Pizzas</div>
+                    </div>
+                  </a>
+                </li>
+				<li>
+                  <a href="/postres/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">cake</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Postres</div>
+                    </div>
+                  </a>
+                </li>
+				<li>
+                  <a href="/bebidas/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">local_drink</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Bebidas</div>
+                    </div>
+                  </a>
+                </li>
+			  </ul>
+			</div>
+			
+		</section>	
+				
+		<section data-name="home" class="page">
+			
+			<nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+                <div class="left">
+                    <a href="#" class="link"><span class="material-icons">settings</span></a>
+                </div>
+                <div class="title">Examen Segundo Parcial</div>
+                <div class="right">
+                    <a href="#" class="link panel-open" data-panel="left"><span class="material-icons">menu</span></a>
+                </div>
+            </div>
+          </nav>
+			
+			<section class="page-content">
+			
+				<h2 class="block-title-large block-title">Comida Rapida</h2>
+				
+				<section id="carousel" class="block">
+				
+					<div class="swiper-container swiper-init" data-speed="400" data-space-between="40">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="img/slide_5.jpg" alt="" class="img-fluid">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/slide_2.jpg" alt="" class="img-fluid">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/slide_3.jpg" alt="" class="img-fluid">
+							</div>
+							
+						</div>
+					</div>
+					
+					
+					
+				</section>
+				
+				<h2 class="block-title">Categories</h2>
+
+            <section id="categories" class="block">
+				
+				<div class="swiper-container swiper-init" data-speed="400" data-space-between="50" data-slides-per-view="3">
+                	<div class="swiper-wrapper">
+
+						<div class="swiper-slide">
+						<a href="/hamburguesas/" class="link">
+							<div class="btn-categorie">
+								<div class="row">
+									<article class="col-40">
+										<img src="img/h1.png" alt="" class="img-fluid">
+									</article>
+									<article class="col-60 nombre">
+										Burger
+									</article>
+								</div>
+							</div>
+						</a>
+						</div>
+						
+						<div class="swiper-slide">
+						<a href="/pizzas/" class="link">
+							<div class="btn-categorie">
+							<div class="row">
+								<article class="col-40">
+									<img src="img/p1.png" alt="" class="img-fluid">
+								</article>
+								<article class="col-60 nombre">
+									Pizza
+								</article>
+							</div>
+						</div>
+						</a>
+						</div>
+						
+						<div class="swiper-slide">
+						<a href="/postres/" class="link">
+							<div class="btn-categorie">
+							<div class="row">
+								<article class="col-40">
+									<img src="img/p1.png" alt="" class="img-fluid">
+								</article>
+								<article class="col-60 nombre">
+									Postres
+								</article>
+							</div>
+						</div>
+						</a>
+						</div>
+						
+						<div class="swiper-slide">
+						<a href="/bebidas/" class="link">
+							<div class="btn-categorie">
+							<div class="row">
+								<article class="col-40">
+									<img src="img/p1.png" alt="" class="img-fluid">
+								</article>
+								<article class="col-60 nombre">
+									Bebidas
+								</article>
+							</div>
+						</div>
+						</a>
+						</div>
+						
+					</div>
+				</div>
+				
+				<h2 class="block-title">Popular Now</h2>
+
+            <section class="card-products block">
+
+                <div class="row">
+
+                    <article class="col">
+                        <div class="card">
+							<a href="/bigmac/" class="link">
+                            	<img src="img/p1-1.jpg" alt="" class="img-fluid">
+							</a>
+                            <h3>Pie de limon</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                            <h4>$ 6.59</h4>
+                        </div>
+                    </article>
+
+                    <article class="col">
+                        <div class="card">
+                            <img src="img/p2-2.jpg" alt="" class="img-fluid">
+                            <h3>Pie de chocolate</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                            <h4>$ 6.25</h4>
+                        </div>
+                    </article>
+                </div>
+				
+            </section>
+			
+			</section>
+			
+			
+			
+		</section>
+	</div>
+</div>
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	
+</body>
+</html>
